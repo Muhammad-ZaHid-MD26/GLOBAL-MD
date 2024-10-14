@@ -6,7 +6,7 @@ import dotenv from 'dotenv';
 
 dotenv.config();
 
-const ownervb = process.env.OWNERS || "923444844060;Qasim";
+const ownervb = process.env.OWNERS || "923288330026;MUHAMMAD";
 const ownerlist = ownervb.split(';');
 
 global.owner = ownerlist.map((owner, i) => ({
@@ -17,10 +17,10 @@ global.owner = ownerlist.map((owner, i) => ({
 
 console.log(global.owner);
 
-global.botNumber = '923051391007'; // Put your number here for pairing directly
-global.mods = ['923444844060'];
-global.prems = ['923444844060'];
-global.allowed = ['923444844060'];
+global.botNumber = '923288330026'; // Put your number here for pairing directly
+global.mods = ['923288330026'];
+global.prems = ['923288330026'];
+global.allowed = ['923288330026'];
 global.keysZens = ['c2459db922', '37CC845916', '6fb0eff124'];
 global.keysxxx = keysZens[Math.floor(Math.random() * keysZens.length)];
 
@@ -48,10 +48,10 @@ global.APIKeys = {
 };
 
 // Sticker WM
-global.botname = 'GLOBAL-MD';
+global.botname = '扎伊迪🫣体面的';
 global.premium = 'true';
-global.packname = 'GLOBAL BOT';
-global.author = 'GlobalTechInfo';
+global.packname = '扎伊迪🫣体面的';
+global.author = '扎伊迪🫣体面的';
 global.igfg = 'https://instagram.com/global.techinc';
 global.fgsc = 'https://github.com/GlobalTechInfo/GLOBAL-MD';
 global.fgyt = 'https://youtube.com/@GlobalTechInfo';
